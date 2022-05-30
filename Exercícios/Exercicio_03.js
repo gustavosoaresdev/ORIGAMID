@@ -21,6 +21,8 @@ if (expressao) {
   console.log("trueeeeeee");
 }
 
+//  O resultado é true
+
 //  Verifique se as seguintes variáveis são truthy ou falsy
 var nome = "gustavo";
 var idade = 19;
