@@ -6,6 +6,7 @@
 var nome = 'gustavo';
 
 //  Declare uma variável contendo um número dentro de uma string
+var numberStrg = '2022';
 
 //  Declare uma variável com a sua idade;
 
