@@ -17,5 +17,10 @@ var sobrenome = 'soares thomann';
 var nomeCompleto = `${nome} ${sobrenome}`;
 
 //  Coloque a seguinte frase em uma variável: It's time 
+var itsTime1 = 'It\'s time';
+//  OU
+var itsTime2 = "It's time";
+//  OU
+var itsTime3 = `It's time`;
 
 //  Verifique o tipo da variável que contém o seu nome
