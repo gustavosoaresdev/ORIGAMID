@@ -3,6 +3,7 @@
 
 
 //  Declare uma variável contendo uma string
+var nome = 'gustavo';
 
 //  Declare uma variável contendo um número dentro de uma string
 
