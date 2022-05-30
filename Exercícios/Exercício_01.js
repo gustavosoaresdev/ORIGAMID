@@ -13,6 +13,8 @@ var minhaIdade = 19;
 
 //  Declare duas variáveis, uma com seu nome
 //  e outra com seu sobrenome e some as duas
+var sobrenome = 'soares thomann';
+var nomeCompleto = `${nome} ${sobrenome}`;
 
 //  Coloque a seguinte frase em uma variável: It's time 
 
