@@ -19,6 +19,11 @@ console.log(quadrado(5));       //  20
 
 //  Crie uma função que retorne o seu nome completo
 //  Ela deve possuir os parâmetros: nome e sobrenome
+function nomeCompleto(nome, sobrenome) {
+    return `${nome} ${sobrenome}`;
+}
+
+console.log(nomeCompleto('gustavo', 'soares thomann'));
 
 //  Crie uma função que verifica se um número é par
 
