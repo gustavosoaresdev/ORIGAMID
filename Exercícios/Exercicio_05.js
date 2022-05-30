@@ -12,6 +12,11 @@ var meusDados = {
 };
 
 //  Crie um método no objeto anterior, que mostre o seu nome completo
+meusDados.nomeCompleto = function() {
+    console.log(`${this.nome} ${this.sobrenome}`);
+}
+
+meusDados.nomeCompleto();
 
 //  Modifique o valor da propriedade preco para 3000
 var carro = {
