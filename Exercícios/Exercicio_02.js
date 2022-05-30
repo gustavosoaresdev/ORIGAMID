@@ -18,3 +18,8 @@ var number1 = 5;
 console.log(++number1);
 
 //  Como dividir o peso por 2?
+var numero = '80' / 2;
+var unidade = 'kg';
+var peso = numero + unidade;
+
+console.log(peso);
