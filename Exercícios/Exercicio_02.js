@@ -3,6 +3,7 @@
 
 
 //  Qual o resultado da seguinte expressão?
+var total = 10 + 5 * 2 / 2 + 20;    //  O resultado é: 35
 
 //  O resultado é: 35
 
