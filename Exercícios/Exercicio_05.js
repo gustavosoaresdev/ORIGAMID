@@ -4,6 +4,12 @@
 
 //  Crie um objeto com o seus dados pessoais
 //  Deve possuir pelo menos duas propriedades, nome e sobrenome
+var meusDados = {
+    nome: 'Gustavo',
+    sobrenome: 'Soares Thomann',
+    age: 19,
+    cpf: '999.999.999-99',
+};
 
 //  Crie um método no objeto anterior, que mostre o seu nome completo
 
