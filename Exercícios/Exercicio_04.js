@@ -11,6 +11,11 @@ console.log(verificarValor('gg'));      //  true
 
 //  Crie uma função matemática que retorne o perimetro de um quadrado
 //  Lembrando: perimetro é a soma dos quatro lados do quadrado
+function quadrado(square) {
+    return square * 4;
+}
+
+console.log(quadrado(5));       //  20
 
 //  Crie uma função que retorne o seu nome completo
 //  Ela deve possuir os parâmetros: nome e sobrenome
