@@ -24,11 +24,13 @@ if (expressao) {
 //  O resultado é true
 
 //  Verifique se as seguintes variáveis são truthy ou falsy
-var nome = "gustavo";
-var idade = 19;
-var possuiDoutorado = false;
-var empregoFuturo;
-var dinheiroNaConta = 0;
+var nome = "gustavo";               //  true
+var idade = 19;                     //  true
+var possuiDoutorado = false;        //  false
+var empregoFuturo;                  //  false
+var dinheiroNaConta = 0;            //  false
+
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta);
 
 //  Compare o total de habitantes do Brasil com a China (valor em milhões)
 var brasil = 207;
