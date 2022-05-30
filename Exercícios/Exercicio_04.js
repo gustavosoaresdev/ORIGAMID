@@ -37,6 +37,11 @@ function isEven(value) {
 console.log(isEven(20));
 
 //  Crie uma função que retorna o tipo de dado do argumento passado nela (typeof)
+function tipoDeDado(dado) {
+    return typeof dado;
+}
+
+console.log(tipoDeDado('Hello World!'));    //  string
 
 //  addEventListener é uma função nativa do JavaScript
 //  o primeiro parâmetro é o evento que ocorre e o segundo o Callback
