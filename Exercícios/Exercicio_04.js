@@ -47,6 +47,9 @@ console.log(tipoDeDado('Hello World!'));    //  string
 //  o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 //  utilize essa função para mostrar no console o seu nome completo
 //  quando o evento "Click" ocorrer
+addEventListener('click', function() {
+    console.log('gustavo soares thomann');
+});
 
 //  Corrija o erro abaixo
 function jaVisitei(paisesVisitados) {
