@@ -26,6 +26,15 @@ function nomeCompleto(nome, sobrenome) {
 console.log(nomeCompleto('gustavo', 'soares thomann'));
 
 //  Crie uma função que verifica se um número é par
+function isEven(value) {
+    if(value % 2 === 0) {
+        return 'PAR';
+    }   else{
+            return 'IMPAR';
+        }
+}
+
+console.log(isEven(20));
 
 //  Crie uma função que retorna o tipo de dado do argumento passado nela (typeof)
 
