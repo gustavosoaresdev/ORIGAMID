@@ -52,8 +52,8 @@ addEventListener('click', function() {
 });
 
 //  Corrija o erro abaixo
+var totalPaises = 193;
 function jaVisitei(paisesVisitados) {
-    var totalPaises = 193;
     return `Já visitei ${paisesVisitados} do total de ${totalPaises} paises`;
 }
 
