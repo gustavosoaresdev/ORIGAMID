@@ -14,5 +14,7 @@ var allExp = firstExp / secondExp;
 var strg = +'200' + 50;
 
 //  Incremente o número 5 e retorne o seu valor incrementado
+var number1 = 5;
+console.log(++number1);
 
 //  Como dividir o peso por 2?
