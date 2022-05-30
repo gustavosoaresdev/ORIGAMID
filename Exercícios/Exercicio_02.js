@@ -11,6 +11,7 @@ var secondExp = 19;
 var allExp = firstExp / secondExp;
 
 //  Somar a string '200' com o número 50 e retornar 250
+var strg = +'200' + 50;
 
 //  Incremente o número 5 e retorne o seu valor incrementado
 
