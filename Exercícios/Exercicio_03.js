@@ -36,6 +36,12 @@ console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaCon
 var brasil = 207;
 var china = 1340;
 
+if (brasil > china) {
+    console.log("Hà muitos mais habitantes no Brasil do que na China");
+} else {
+    console.log("Hà muitos mais habitantes na China do que no Brasil");
+}
+
 //  Oque irá aparecer no console?
 if ("Gato" === "gato" && 5 > 2) {
   console.log("Verdadeiro");
