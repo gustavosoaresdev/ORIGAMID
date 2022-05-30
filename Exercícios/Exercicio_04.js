@@ -3,6 +3,11 @@
 
 
 //  Crie uma função para verificar se um valor é truthy
+function verificarValor(valor) {
+    return !!valor;
+}
+
+console.log(verificarValor('gg'));      //  true
 
 //  Crie uma função matemática que retorne o perimetro de um quadrado
 //  Lembrando: perimetro é a soma dos quatro lados do quadrado
