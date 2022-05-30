@@ -29,3 +29,18 @@ carro.preco = 3000;
 
 //  Crie um objeto de um cachorro que represente um labrador,
 //  preto com 10 anos, que late ao ver um homem
+var cachorro = {
+    raca: 'Labrador',
+    cor: 'Preto',
+    idade: 10,
+
+    latir: function(pessoa) {
+        if(pessoa === 'homem' || pessoa === 'Homem'){
+            return 'Latir';
+        }   else{
+                return 'Nada';
+            }
+    },
+}
+
+console.log(cachorro.latir('Homem'));
