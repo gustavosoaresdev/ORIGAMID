@@ -44,14 +44,16 @@ if (brasil > china) {
 
 //  Oque irá aparecer no console?
 if ("Gato" === "gato" && 5 > 2) {
-  console.log("Verdadeiro");
+    console.log("Verdadeiro");
 } else {
-  console.log("Falso");
+    console.log("Falso");
 }
+
+//  O resultado é: falso
 
 //  Oque irá aparecer no console?
 if ("Gato" === "gato" || 5 > 2) {
-  console.log("Gato" && "Cão");
+    console.log("Gato" && "Cão");
 } else {
-  console.log("Falso");
+    console.log("Falso");
 }
