@@ -5,9 +5,10 @@
 //  Qual o resultado da seguinte expressão?
 var total = 10 + 5 * 2 / 2 + 20;    //  O resultado é: 35
 
-//  O resultado é: 35
-
 //  Crie duas expressões que retorem NaN
+var firstExp = 'Minha idade é 19';
+var secondExp = 19;
+var allExp = firstExp / secondExp;
 
 //  Somar a string '200' com o número 50 e retornar 250
 
