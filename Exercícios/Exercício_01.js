@@ -9,6 +9,7 @@ var nome = 'gustavo';
 var numberStrg = '2022';
 
 //  Declare uma variável com a sua idade;
+var minhaIdade = 19;
 
 //  Declare duas variáveis, uma com seu nome
 //  e outra com seu sobrenome e some as duas
