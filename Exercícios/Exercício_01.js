@@ -24,3 +24,7 @@ var itsTime2 = "It's time";
 var itsTime3 = `It's time`;
 
 //  Verifique o tipo da variável que contém o seu nome
+console.log(typeof nomeCompleto);
+//  OU
+var verificarTipoDaVariavelNome = typeof nomeCompleto;
+console.log(verificarTipoDaVariavelNome);
