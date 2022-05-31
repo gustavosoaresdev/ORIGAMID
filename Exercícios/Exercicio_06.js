@@ -26,3 +26,18 @@ btnA.addEventListener('click', function() {
 
 //  Busque na web um objeto (método) capaz de interagir com o clipboard,
 //  clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
+
+//  Eu não só busquei, eu aprendi e fiz!
+function copy() {
+    var $textarea = document.querySelector('#textarea');
+    $textarea.select();
+
+    if($textarea) {
+        document.execCommand('copy');
+        alert('Texto copiado');
+    }   else {
+            alert('Error: texto não copiado');
+        }
+}
+
+var $btn = document.querySelector('#btn').addEventListener('click', copy);
