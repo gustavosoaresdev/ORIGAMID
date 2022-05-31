@@ -3,6 +3,12 @@
 
 
 //  Nomeie 3 propriedades ou métodos de string
+var nome = 'Gustbo';
+var verifyNome = nome.replace('tbo', 'tavo');   //  1
+
+console.log(verifyNome);
+console.log(verifyNome.toUpperCase());          //  2
+console.log(verifyNome.length);                 //  3
 
 //  Nomeie 5 propriedades ou métodos de elementos do DOM
 
