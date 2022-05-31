@@ -15,5 +15,12 @@ copas.forEach(function(ano) {
 //  Interaja com um loop nas frutas abaixo e pare ao chegar em pera
 var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância'];
 
+for(var i = 0; i < frutas.length; i++){
+    console.log(frutas[i]);
+    if(frutas[i] === 'Pera'){
+        break;
+    }
+}
+
 //  Coloque a última fruta da array acima em uma variável,
 //  sem remover a mesma da array
