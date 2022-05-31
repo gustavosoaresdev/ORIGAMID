@@ -12,3 +12,4 @@ scroll += 500;
 //  E false caso o contrário
 var possuiCarro = true;
 var possuiCasa = true;
+var darCredito = (possuiCarro && possuiCasa);
