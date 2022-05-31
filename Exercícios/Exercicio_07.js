@@ -8,6 +8,9 @@ var copas = [1959, 1962, 1970, 1994, 2002];
 
 //  Interaja com a array utilizando um loop, para mostrar
 //  no console a seguinte mensagem, 'O brasil ganhou a copa de ${ano}'
+copas.forEach(function(ano) {
+    console.log(`O brasil ganhou a copa de ${ano}`);
+});
 
 //  Interaja com um loop nas frutas abaixo e pare ao chegar em pera
 var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância'];
