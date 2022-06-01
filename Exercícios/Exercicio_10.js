@@ -10,5 +10,7 @@ console.log('url da página:', url);
 const ativo = document.querySelector('.ativo');
 
 //  Retorne a linguagem do navegador
+const linguagemNavegador = navigator.language;
+console.log(linguagemNavegador);
 
 //  Retorne a largura da janela
