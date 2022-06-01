@@ -7,6 +7,8 @@ const allImages = document.querySelectorAll('img');
 console.log(allImages);
 
 //  Retorne no console apenas as imagens que começaram com a palavra imagem
+const palavraImagem = document.querySelectorAll('img[src^="/img/imagem"]');
+console.log(palavraImagem);
 
 //  Selecione todos os links internos (onde o href começa com #)
 
