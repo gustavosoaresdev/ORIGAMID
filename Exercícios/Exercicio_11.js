@@ -23,3 +23,7 @@ const h2 = firsttH2.querySelector('h2');
 console.log(h2);
 
 //  Selecione o último p do site
+const ultimoP = document.querySelectorAll('p');
+console.log(ultimoP[ultimoP.length - 1]);
+//  OU
+console.log(ultimoP[--ultimoP.length]);
