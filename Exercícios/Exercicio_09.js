@@ -7,9 +7,9 @@
     var cor = 'preto';
     const marca = 'Fiat';
     let portas = 4;
-}
 
-console.log(var, marca, portas);
+    console.log(cor, marca, portas);
+}
 
 //  Como corrigir o erro abaixo?
 function somarDois(x) {
