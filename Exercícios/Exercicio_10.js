@@ -7,6 +7,7 @@ const url = location.href;
 console.log('url da página:', url);
 
 //  Selecione o primeiro elemento da página que possua a classe ativo
+const ativo = document.querySelector('.ativo');
 
 //  Retorne a linguagem do navegador
 
