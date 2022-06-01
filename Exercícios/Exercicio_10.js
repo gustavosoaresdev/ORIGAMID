@@ -14,3 +14,5 @@ const linguagemNavegador = navigator.language;
 console.log(linguagemNavegador);
 
 //  Retorne a largura da janela
+const widthWindow = innerWidth;
+console.log(widthWindow);
