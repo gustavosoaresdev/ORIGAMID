@@ -11,6 +11,8 @@ const palavraImagem = document.querySelectorAll('img[src^="/img/imagem"]');
 console.log(palavraImagem);
 
 //  Selecione todos os links internos (onde o href começa com #)
+const linksInternos = document.querySelectorAll('[href^="#"]');
+console.log(linksInternos);
 
 //  Selecione o primeiro h2 dentro de .animais-descricao
 
