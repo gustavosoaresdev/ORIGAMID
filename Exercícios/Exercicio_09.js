@@ -27,7 +27,7 @@ console.log(dividirDois(6));
 //  O que fazer para total retornar 500?
 const numero = 50;
 
-for(var numero = 0; numero < 10; numero++){
+for(let numero = 0; numero < 10; numero++){
     console.log(numero);
 }
 
