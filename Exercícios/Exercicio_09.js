@@ -12,13 +12,13 @@
 }
 
 //  Como corrigir o erro abaixo?
+const dois = 2;
 function somarDois(x) {
-    const dois = 2;
     return x + dois;
 }
 
 function dividirDois(x) {
-    return x + dois;
+    return x / dois;
 }
 
 console.log(somarDois(4));
