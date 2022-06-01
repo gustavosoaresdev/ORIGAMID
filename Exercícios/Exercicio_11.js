@@ -3,6 +3,8 @@
 
 
 //  Retorne no console todas as imagens do site
+const allImages = document.querySelectorAll('img');
+console.log(allImages);
 
 //  Retorne no console apenas as imagens que começaram com a palavra imagem
 
