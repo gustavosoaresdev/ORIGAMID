@@ -3,6 +3,8 @@
 
 
 //  Mostre no console cada parágrafo do site
+const paragrafos = document.querySelectorAll('p');
+paragrafos.forEach(item => console.log(item));
 
 //  Mostre o texto dos parágrafos no console
 
