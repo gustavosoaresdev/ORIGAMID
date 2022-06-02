@@ -7,6 +7,7 @@ const paragrafos = document.querySelectorAll('p');
 paragrafos.forEach(item => console.log(item));
 
 //  Mostre o texto dos parágrafos no console
+paragrafos.forEach(item => console.log(item.innerText));
 
 //  Como corrigir os erros abaixo?
 const imgs = document.querySelectorAll('img');
