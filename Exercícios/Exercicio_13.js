@@ -8,6 +8,8 @@ itemsDoMenu.forEach(item => item.classList.add('ativo'));
 
 //  Remove a classe ativo de todos os itens do menu
 //  e mantenha apenas no primeiro
+itemsDoMenu.forEach(item => item.classList.remove('ativo'));
+itemsDoMenu[0].classList.add('ativo');
 
 //  Verifique se as imagens possuem o atributo alt
 
