@@ -19,3 +19,5 @@ imgs.forEach(item => {
 });
 
 //  Modifique o href do link externo do menu
+const hrefMod = document.querySelector('a[href^="http"]');
+hrefMod.setAttribute('href', 'https://www.google.com/');
