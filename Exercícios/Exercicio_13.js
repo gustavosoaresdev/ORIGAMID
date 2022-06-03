@@ -3,6 +3,8 @@
 
 
 //  Adicione a classe ativo a todos os itens do menu
+const itemsDoMenu = document.querySelectorAll('.menu a');
+itemsDoMenu.forEach(item => item.classList.add('ativo'));
 
 //  Remove a classe ativo de todos os itens do menu
 //  e mantenha apenas no primeiro
