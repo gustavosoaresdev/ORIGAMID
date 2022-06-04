@@ -4,6 +4,9 @@
 
 //  Verifique a distância da primeira imagem
 //  em relação ao topo da página
+const firstImage = document.querySelector('img');
+const imageTop = firstImage.offsetTop;
+console.log(imageTop);
 
 //  Retorne a soma da largura de todas as imagens
 
