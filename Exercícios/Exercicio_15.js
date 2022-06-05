@@ -45,3 +45,12 @@ function handleRemoveElement(event) {
 }
 
 //  Se o usuário clicar na tecla (t), aumente todo o texto do site
+const corpoWeb2 = document.querySelector('body');
+
+function handleKey(event) {
+    if(event.key === 't'){
+        document.documentElement.classList.toggle('bigFont');
+    }
+}
+
+corpoWeb2.addEventListener('keydown', handleKey);
