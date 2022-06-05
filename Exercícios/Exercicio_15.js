@@ -6,7 +6,24 @@
 //  adicione a clase ativo ao item clicado e remova dos
 //  demais itens caso eles possuam a mesma. Previna
 //  o comportamento padrão desses links
+const linksInternos = document.querySelectorAll('a[href^="#"]');
 
+function handleLink(event) {
+    event.preventDefault();
+    
+    linksInternos.forEach(link => {
+        link.classList.remove('ativo');
+    });
+
+    this.classList.add('ativo');
+    //  OU
+    // event.currentTarget.classList.add('ativo');
+
+};
+
+linksInternos.forEach(item => {
+    item.addEventListener('click', handleLink);
+});
 
 //  Selecione todos os elementos do site começando a partir do body,
 //  ao clique mostre exatamente quais elementos estão sendo clicados
