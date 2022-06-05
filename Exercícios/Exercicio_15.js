@@ -40,5 +40,8 @@ allElements.forEach(element => {
 
 //  Utilizando o código anterior, ao invés de mostrar no console,
 //  remova o elemento que está sendo clicado, o método remove() remove um elemento
+function handleRemoveElement(event) {
+    event.target.remove();
+}
 
 //  Se o usuário clicar na tecla (t), aumente todo o texto do site
