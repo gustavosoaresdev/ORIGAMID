@@ -3,6 +3,9 @@
 
 
 //  Duplique o menu e adicione ele em copy
+const copy = document.querySelector('.copy');
+const cloneMenu = menu.cloneNode(true);
+copy.appendChild(cloneMenu);
 
 //  Selecione o primeiro DT da DL de faq
 
