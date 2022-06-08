@@ -17,3 +17,5 @@ const nextDT = firstDT.nextElementSibling;
 console.log(nextDT);
 
 //  Substitua o conteúdo HTML de .faq pelo de .animais
+const animais = document.querySelector('.animais');
+faq.innerHTML = animais.innerHTML;
