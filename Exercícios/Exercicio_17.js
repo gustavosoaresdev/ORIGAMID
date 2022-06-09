@@ -13,6 +13,9 @@ function Pessoa(nome, idade) {
 
 //  Crie 3 pessoas, João - 20 anos,
 //  Maria - 25 anos, Bruno - 15 anos
+const joao = new Pessoa('João', 20);
+const maria = new Pessoa('Maria', 25);
+const bruno = new Pessoa('Bruno', 15);
 
 //  Crie uma Constructor Function (Dom) para manipulação
 //  de listas de elementos do DOM. Deve conter as seguintes
