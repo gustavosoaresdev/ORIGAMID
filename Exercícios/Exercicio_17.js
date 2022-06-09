@@ -3,13 +3,13 @@
 
 
 //  Transforme o objeto abaixo em uma Constructor Function
-const pessoa = {
-    nome: 'Nome pessoa',
-    idade: 0,
-    andar() {
+function Pessoa(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+    this.andar = function() {
         console.log(this.nome + ' andou');
-    },
-}
+    };
+};
 
 //  Crie 3 pessoas, João - 20 anos,
 //  Maria - 25 anos, Bruno - 15 anos
