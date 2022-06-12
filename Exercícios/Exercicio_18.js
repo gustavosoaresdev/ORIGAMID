@@ -38,4 +38,4 @@ li.offsetLeft;      //  Number
 li.click();         //  Undefined
 
 //  Qual o construtor do dado abaixo?
-li.hidden.constructor.name;
+li.hidden.constructor.name;     //  String
