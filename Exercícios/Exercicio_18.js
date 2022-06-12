@@ -39,3 +39,5 @@ li.click();         //  Undefined
 
 //  Qual o construtor do dado abaixo?
 li.hidden.constructor.name;     //  String
+
+//  Uma dica muito boa é:   Use o console do navegador!
