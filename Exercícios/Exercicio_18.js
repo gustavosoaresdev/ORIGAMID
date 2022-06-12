@@ -22,6 +22,9 @@ console.log(gustavo.nomeCompleto());
 //  Liste os métodos acessados por
 //  dados criados com NodeList,
 //  HTMLCollection, Document
+Object.getOwnPropertyNames(NodeList.prototype);
+Object.getOwnPropertyNames(HTMLCollection.prototype);
+Object.getOwnPropertyNames(Document.prototype);
 
 //  Liste os construtores dos dados abaixo
 const li = document.querySelector('li');
