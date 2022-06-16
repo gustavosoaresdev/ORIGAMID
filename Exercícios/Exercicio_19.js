@@ -3,6 +3,11 @@
 
 
 //  Liste 5 objetos nativos
+Object
+String
+Number
+Function
+Array
 
 //  Liste 5 objetos do browser
 
