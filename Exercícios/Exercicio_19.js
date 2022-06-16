@@ -18,3 +18,8 @@ Element
 
 //  Liste 2 Métodos, Propriedades ou Objetos
 //  presentes no Chrome que não existem no Firefox
+if(typeof document.caretRangeFromPoint !== 'undefined')
+    console.log('Existe');
+
+//  exitPictureInPicture
+//  caretRangeFromPoint
