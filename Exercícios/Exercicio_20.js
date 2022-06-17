@@ -62,6 +62,7 @@ console.log(html);
 
 //  Retorne o último caracter da frase
 const frase = 'Melhor do ano!';
+console.log('Último caracter da frase:', frase[frase.length - 1]);
 
 //  Retorne o total de taxas
 const transacoes2 = [
