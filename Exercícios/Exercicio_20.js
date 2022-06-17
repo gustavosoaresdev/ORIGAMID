@@ -72,3 +72,13 @@ const transacoes2 = [
     'depósito Bancário',
     'TARIFA especial'
 ];
+
+let taxasTotal = 0;
+transacoes2.forEach(item => {
+    const trimS = item.trim().slice(0, 4).toLowerCase();
+    if(trimS === 'taxa') {
+        taxasTotal++
+    };
+});
+
+console.log(taxasTotal);
