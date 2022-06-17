@@ -43,6 +43,8 @@ console.log('Recebimento total:', recebimentoTotal);
 
 //  Retorne uma array com a lista abaixo
 const transportes = 'Carro;Avião;Trem;Ônibus;Bicicleta';
+const arrayTransportes = transportes.split(';');
+console.log(arrayTransportes);
 
 //  Substitua todos os span's por a's
 let html = `
