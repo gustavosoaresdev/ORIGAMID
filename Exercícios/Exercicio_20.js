@@ -55,6 +55,11 @@ let html = `
     </ul>
 `;
 
+const subs = html.replace(/[span]+/g, 'a');
+//  OU
+html = html.split('span').join('a');
+console.log(html);
+
 //  Retorne o último caracter da frase
 const frase = 'Melhor do ano!';
 
