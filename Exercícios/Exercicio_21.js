@@ -3,6 +3,8 @@
 
 
 //  Retorne um número aleatório entre 1050 e 2000
+const numeroAleatorio = Math.floor(Math.random() * (2000 - 1050 + 1) + 1050);
+console.log(numeroAleatorio);
 
 //  Retorne o maior número da lista abaixo
 const numeros = '4, 5, 20, 8, 9';
