@@ -46,3 +46,6 @@ console.log(html);
 //  Remova o último carro, mas antes de remover
 //  salve a array original em outra variável
 const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
+const cloneCarros = carros.slice();
+carros.pop();
+console.log(cloneCarros);
