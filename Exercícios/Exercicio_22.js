@@ -35,6 +35,14 @@ let html = `
     </section>
 `;
 
+html = html.split('section').join('ul').split('div').join('li');
+//  OU
+// html = html.split('section');
+// html = html.join('ul');
+// html = html.split('div');
+// html = html.join('li');
+console.log(html);
+
 //  Remova o último carro, mas antes de remover
 //  salve a array original em outra variável
 const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
