@@ -19,6 +19,11 @@ console.log(comidas);
 //  Verifique se Joana faz parte dos estudantes
 //  Verifique se Juliana faz parte dos estudantes
 const estudantes = ['Marcio', 'Brenda', 'Joana', 'Kleber', 'Julia'];
+estudantes.sort();
+estudantes.reverse();
+
+console.log(estudantes.includes('Joana'));
+console.log(estudantes.includes('Juliana'));
 
 //  Substitua section por ul e div por li,
 //  utilizando split e join
