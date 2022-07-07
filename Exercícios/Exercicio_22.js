@@ -7,6 +7,12 @@
 //  Adicione 'Arroz' ao final da array
 //  Adicione 'Peixe' e 'Batata' ao início da array
 const comidas = ['Pizza', 'Frango', 'Carne', 'Macarrão'];
+const firstValue = comidas.shift();
+const lastValue = comidas.pop();
+
+comidas.push('Arroz');
+comidas.unshift('Peixe', 'Batata');
+console.log(comidas);
 
 //  Arrume os estudantes em ordem alfabética
 //  Inverta a ordem dos estudantes
